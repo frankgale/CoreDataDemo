@@ -16,6 +16,16 @@
 		BED5D79E1CCB5C2E009509B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED5D79C1CCB5C2E009509B8 /* LaunchScreen.storyboard */; };
 		BED5D7A91CCB5C2E009509B8 /* CoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5D7A81CCB5C2E009509B8 /* CoreDataDemoTests.m */; };
 		BED5D7B41CCB5C2E009509B8 /* CoreDataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5D7B31CCB5C2E009509B8 /* CoreDataDemoUITests.m */; };
+		BED5D7C51CCB5C5D009509B8 /* Entity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5D7C21CCB5C5D009509B8 /* Entity+CoreDataProperties.m */; };
+		BED5D7C61CCB5C5D009509B8 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5D7C41CCB5C5D009509B8 /* Entity.m */; };
+		BED5D7CE1CCB6F9A009509B8 /* CoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BED5D7CD1CCB6F9A009509B8 /* CoreDataUtil.m */; };
+		BEEE783F1CD0A42F007EF8AD /* QRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE783E1CD0A42F007EF8AD /* QRCodeUtil.m */; };
+		BEEE78421CD0A778007EF8AD /* CATransition+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = BEEE78411CD0A778007EF8AD /* CATransition+Util.m */; };
+		BEFD3F051CCF614700B621BD /* FGBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD3F041CCF614700B621BD /* FGBase.m */; };
+		BEFD3F081CCF62C900B621BD /* JsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD3F071CCF62C900B621BD /* JsonUtil.m */; };
+		BEFD3F0C1CCF651800B621BD /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD3F0B1CCF651800B621BD /* UIImage+Util.m */; };
+		BEFD3F0F1CCF67A500B621BD /* WHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD3F0E1CCF67A500B621BD /* WHttpUtil.m */; };
+		BEFD3F131CCF7BCC00B621BD /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFD3F121CCF7BCC00B621BD /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,26 @@
 		BED5D7AF1CCB5C2E009509B8 /* CoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED5D7B31CCB5C2E009509B8 /* CoreDataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataDemoUITests.m; sourceTree = "<group>"; };
 		BED5D7B51CCB5C2E009509B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED5D7C11CCB5C5D009509B8 /* Entity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Entity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		BED5D7C21CCB5C5D009509B8 /* Entity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Entity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		BED5D7C31CCB5C5D009509B8 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		BED5D7C41CCB5C5D009509B8 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		BED5D7CC1CCB6F9A009509B8 /* CoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataUtil.h; sourceTree = "<group>"; };
+		BED5D7CD1CCB6F9A009509B8 /* CoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataUtil.m; sourceTree = "<group>"; };
+		BEEE783D1CD0A42F007EF8AD /* QRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeUtil.h; sourceTree = "<group>"; };
+		BEEE783E1CD0A42F007EF8AD /* QRCodeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeUtil.m; sourceTree = "<group>"; };
+		BEEE78401CD0A778007EF8AD /* CATransition+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransition+Util.h"; sourceTree = "<group>"; };
+		BEEE78411CD0A778007EF8AD /* CATransition+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransition+Util.m"; sourceTree = "<group>"; };
+		BEFD3F031CCF614700B621BD /* FGBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGBase.h; sourceTree = "<group>"; };
+		BEFD3F041CCF614700B621BD /* FGBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGBase.m; sourceTree = "<group>"; };
+		BEFD3F061CCF62C900B621BD /* JsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUtil.h; sourceTree = "<group>"; };
+		BEFD3F071CCF62C900B621BD /* JsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtil.m; sourceTree = "<group>"; };
+		BEFD3F0A1CCF651800B621BD /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		BEFD3F0B1CCF651800B621BD /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		BEFD3F0D1CCF67A500B621BD /* WHttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHttpUtil.h; sourceTree = "<group>"; };
+		BEFD3F0E1CCF67A500B621BD /* WHttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHttpUtil.m; sourceTree = "<group>"; };
+		BEFD3F111CCF7BCC00B621BD /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		BEFD3F121CCF7BCC00B621BD /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +133,9 @@
 		BED5D78A1CCB5C2D009509B8 /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BEFD3F101CCF7BBE00B621BD /* Model */,
+				BEFD3F091CCF650800B621BD /* Category */,
+				BED5D7CB1CCB6F86009509B8 /* Util */,
 				BED5D78E1CCB5C2D009509B8 /* AppDelegate.h */,
 				BED5D78F1CCB5C2D009509B8 /* AppDelegate.m */,
 				BED5D7911CCB5C2D009509B8 /* ViewController.h */,
@@ -113,6 +146,10 @@
 				BED5D79F1CCB5C2E009509B8 /* Info.plist */,
 				BED5D7971CCB5C2E009509B8 /* CoreDataDemo.xcdatamodeld */,
 				BED5D78B1CCB5C2D009509B8 /* Supporting Files */,
+				BED5D7C11CCB5C5D009509B8 /* Entity+CoreDataProperties.h */,
+				BED5D7C21CCB5C5D009509B8 /* Entity+CoreDataProperties.m */,
+				BED5D7C31CCB5C5D009509B8 /* Entity.h */,
+				BED5D7C41CCB5C5D009509B8 /* Entity.m */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -141,6 +178,43 @@
 				BED5D7B51CCB5C2E009509B8 /* Info.plist */,
 			);
 			path = CoreDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		BED5D7CB1CCB6F86009509B8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD3F061CCF62C900B621BD /* JsonUtil.h */,
+				BEFD3F071CCF62C900B621BD /* JsonUtil.m */,
+				BED5D7CC1CCB6F9A009509B8 /* CoreDataUtil.h */,
+				BED5D7CD1CCB6F9A009509B8 /* CoreDataUtil.m */,
+				BEFD3F031CCF614700B621BD /* FGBase.h */,
+				BEFD3F041CCF614700B621BD /* FGBase.m */,
+				BEFD3F0D1CCF67A500B621BD /* WHttpUtil.h */,
+				BEFD3F0E1CCF67A500B621BD /* WHttpUtil.m */,
+				BEEE783D1CD0A42F007EF8AD /* QRCodeUtil.h */,
+				BEEE783E1CD0A42F007EF8AD /* QRCodeUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		BEFD3F091CCF650800B621BD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD3F0A1CCF651800B621BD /* UIImage+Util.h */,
+				BEFD3F0B1CCF651800B621BD /* UIImage+Util.m */,
+				BEEE78401CD0A778007EF8AD /* CATransition+Util.h */,
+				BEEE78411CD0A778007EF8AD /* CATransition+Util.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BEFD3F101CCF7BBE00B621BD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEFD3F111CCF7BCC00B621BD /* Game.h */,
+				BEFD3F121CCF7BCC00B621BD /* Game.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +284,7 @@
 				TargetAttributes = {
 					BED5D7871CCB5C2D009509B8 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4QU99RP4H9;
 					};
 					BED5D7A31CCB5C2E009509B8 = {
 						CreatedOnToolsVersion = 7.2;
@@ -273,10 +348,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEFD3F0F1CCF67A500B621BD /* WHttpUtil.m in Sources */,
+				BED5D7C61CCB5C5D009509B8 /* Entity.m in Sources */,
+				BED5D7C51CCB5C5D009509B8 /* Entity+CoreDataProperties.m in Sources */,
+				BEFD3F131CCF7BCC00B621BD /* Game.m in Sources */,
 				BED5D7931CCB5C2D009509B8 /* ViewController.m in Sources */,
+				BEFD3F051CCF614700B621BD /* FGBase.m in Sources */,
+				BEEE78421CD0A778007EF8AD /* CATransition+Util.m in Sources */,
 				BED5D7991CCB5C2E009509B8 /* CoreDataDemo.xcdatamodeld in Sources */,
 				BED5D7901CCB5C2D009509B8 /* AppDelegate.m in Sources */,
 				BED5D78D1CCB5C2D009509B8 /* main.m in Sources */,
+				BEFD3F0C1CCF651800B621BD /* UIImage+Util.m in Sources */,
+				BED5D7CE1CCB6F9A009509B8 /* CoreDataUtil.m in Sources */,
+				BEEE783F1CD0A42F007EF8AD /* QRCodeUtil.m in Sources */,
+				BEFD3F081CCF62C900B621BD /* JsonUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdaoyun.CoreDataDemo;
@@ -426,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdaoyun.CoreDataDemo;
@@ -500,6 +587,7 @@
 				BED5D7BA1CCB5C2E009509B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BED5D7BB1CCB5C2E009509B8 /* Build configuration list for PBXNativeTarget "CoreDataDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +596,7 @@
 				BED5D7BD1CCB5C2E009509B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BED5D7BE1CCB5C2E009509B8 /* Build configuration list for PBXNativeTarget "CoreDataDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +605,7 @@
 				BED5D7C01CCB5C2E009509B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
